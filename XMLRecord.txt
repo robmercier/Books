@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<book-table>
+	<book>
+		<Title>The Official Ubuntu Server Book</Title>
+		<Subtitle>Kyle Rankin, Benjamin Mako Hill</Subtitle>
+		<Author>9780133017564</Author>
+		<Publisher>Pearson Education</Publisher>
+		<Rating>7/12/2013</Rating>
+		<Pages>600</Pages>
+		<BookType>Linux</BookType>
+	</book>
+	<book>
+		<Title>The Official Joomla! Book</Title>
+		<Subtitle>Jennifer Marriott, Elin Waring</Subtitle>
+		<Author>9780132978958</Author>
+		<Publisher>Pearson Education</Publisher>
+		<Rating>12/29/2012</Rating>
+		<Pages>512</Pages>
+		<BookType>Joomla Content Management</BookType>
+	</book>
+	<book>
+		<Title>App Inventor 2 with MySQL database: remote management of data</Title>
+		<Subtitle>Mr Antonio Taccetti</Subtitle>
+		<Author>9781537680156</Author>
+		<Publisher>CreateSpace Publishing</Publisher>
+		<Rating>9/15/2016</Rating>
+		<Pages>74</Pages>
+		<BookType>Android</BookType>
+	</book>
+</book-table>
