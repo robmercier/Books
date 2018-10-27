@@ -5,26 +5,26 @@
 		<Author>Kyle Rankin, Benjamin Mako Hill</Author>
 		<ISBN-13>9780133017564</ISBN-13>
 		<Publisher>Pearson Education</Publisher>
-		<Publication_date>7/12/2013</Publication_date>
-		<Pages>600</Pages>
-		<Related_Subject>Linux</Related_Subject>
+		<Rating>4.25</Rating>
+		<Pages>592</Pages>
+		<Book Type>Paperback</Book Type>
 	</book>
 	<book>
 		<Title>Too Big to Fail</Title>
 		<Author>Jennifer Marriott, Elin Waring</Author>
 		<ISBN-13>9780132978958</ISBN-13>
 		<Publisher>Pearson Education</Publisher>
-		<Publication_date>12/29/2012</Publication_date>
-		<Pages>512</Pages>
-		<Related_Subject>Joomla Content Management</Related_Subject>
+		<Rating>4.11</Rating>
+		<Pages>600</Pages>
+		<Book Type>Paperback</Book Type>
 	</book>
 	<book>
 		<Title>The Big Short</Title>
 		<Author>Mr Antonio Taccetti</Author>
 		<ISBN-13>9781537680156</ISBN-13>
 		<Publisher>CreateSpace Publishing</Publisher>
-		<Publication_date>9/15/2016</Publication_date>
-		<Pages>74</Pages>
-		<Related_Subject>Android</Related_Subject>
+		<Rating>4.27</Rating>
+		<Pages>264</Pages>
+		<Book Type>Paperback</Book Type>
 	</book>
 </book-table>
