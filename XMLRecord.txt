@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<book-table>
+	<book>
+		<Title>Barbarians at the Gate</Title>
+		<Subtitle>The Fall of RJR Nabisco</Subtitle>
+		<Author>Bryan Burrough, John Helyar</Author>
+		<Publisher>Harper '& amp;' Row</Publisher>
+		<Rating>4.25</Rating>
+		<Pages>592</Pages>
+		<BookType>Paperback</BookType>
+	</book>
+	<book>
+		<Title>Too Big to Fail</Title>
+		<Subtitle>The Inside Story of How Wall Street and Washington Fought to Save the Financial System--and Themselves</Subtitle>
+		<Author>Andrew Ross Sorkin</Author>
+		<Publisher>Viking</Publisher>
+		<Rating>4.11</Rating>
+		<Pages>600</Pages>
+		<BookType>Paperback</BookType>
+	</book>
+	<book>
+		<Title>The Big Short</Title>
+		<Subtitle>Inside the Doomsday Machine</Subtitle>
+		<Author>Michael Lewis</Author>
+		<Publisher>Norton</Publisher>
+		<Rating>4.27</Rating>
+		<Pages>264</Pages>
+		<BookType>Paperback</BookType>
+	</book>
+</book-table>
