@@ -1,0 +1,85 @@
+---
+title: "Homework Week 7 - Favorite Books"
+author: "Robert_M"
+date: "October 27, 2018"
+output: 
+  html_document:
+    theme: lumen
+    toc: yes
+    toc_float: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Assignment - Working on XML, HTML and JSON in R
+
+Pick three of your favorite books on one of your favorite subjects. At least one of the books should have more
+than one author. For each book, include the:
+ - title 
+ - authors  
+ - two or three other attributes that you find interesting.
+ 
+Take the information that you've selected about these three books, and separately create three files which
+store the book's information in 
+- HTML (using an html table) 
+- XML
+- JSON formats (e.g. "books.html", "books.xml", and "books.json"). 
+To help you better understand the different file structures, I'd prefer that you create each of these files "by hand" unless you're already very comfortable with the file formats. Write R code, using your packages of choice, to load the information from each of the three sources into separate R data frames. 
+
+**Are the three data frames identical?**
+
+Your deliverable is the three source files and the R code. If you can, package your assignment solution up into an .Rmd file and publish to rpubs.com. [This will also require finding a way to make your three text files accessible from the web].
+
+
+## Load packages/libraries 
+```{r}
+library(rjson)
+library(knitr)
+library(XML)
+library(RCurl)
+library(jsonlite)
+library(methods)
+```
+
+## HTML Code
+![HTML](https://raw.githubusercontent.com/robmercier/Books/master/Images-HTML.jpg)
+```{r}
+#Write HTML into R
+hurl <- "https://raw.githubusercontent.com/robmercier/Books/master/HTML.txt"
+html <- getURL(hurl)
+#Creating Table
+html_table <- readHTMLTable(html, header=TRUE, which=1)
+#Final Dataframe
+str(html_table)
+```
+
+## XML Code
+![XML](https://raw.githubusercontent.com/robmercier/Books/master/Image-XML.jpg)
+
+```{r}
+#Write XML into R
+xurl <- "https://raw.githubusercontent.com/robmercier/Books/master/XMLRecord.txt"
+xml <- getURL(xurl)
+#Creating Table
+xml_table <- xmlToDataFrame(xml)
+#Final Dataframe
+str(xml_table)
+```
+
+## JSON Code
+![JSON](https://raw.githubusercontent.com/robmercier/Books/master/Image-JSON.jpg)
+
+```{r}
+#Write JSON into R
+jurl <- "https://raw.githubusercontent.com/robmercier/Books/master/JSON.txt"
+json_file <- fromJSON(jurl)
+#Creating Table
+json_table <- as.data.frame(json_file)
+#Final Dataframe
+str(json_table)
+```
+
+### After completing the files I am uploading into GitHub
+### By all looks the dataframes are identical 
